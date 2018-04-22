@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F5EE4B6F8D77FED5EE50C36 /* Pods_VirtualTourist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE31C12FC116AAD2A3B800C /* Pods_VirtualTourist.framework */; };
 		3597F6C8208B141800522FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3597F6C7208B141800522FF7 /* AppDelegate.swift */; };
 		3597F6CA208B141800522FF7 /* MapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3597F6C9208B141800522FF7 /* MapViewViewController.swift */; };
 		3597F6CD208B141800522FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3597F6CB208B141800522FF7 /* Main.storyboard */; };
@@ -22,8 +21,6 @@
 		3597F700208B245300522FF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3597F6FF208B245300522FF7 /* Constants.swift */; };
 		3597F703208B3F0500522FF7 /* CollectionCellFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3597F702208B3F0500522FF7 /* CollectionCellFile.swift */; };
 		3597F705208BE40E00522FF7 /* NetworkingFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3597F704208BE40E00522FF7 /* NetworkingFile.swift */; };
-		5D5FE27FBB27B6E6CCF98D4D /* Pods_VirtualTouristUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9D6EEDA6194E2BBC378816 /* Pods_VirtualTouristUITests.framework */; };
-		E25D2BC6B2DF6C77FC794CB9 /* Pods_VirtualTouristTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA64D17314D261918009FEA /* Pods_VirtualTouristTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B9D6EEDA6194E2BBC378816 /* Pods_VirtualTouristUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualTouristUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FBD855404509877D0947D6C /* Pods-VirtualTouristUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTouristUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualTouristUITests/Pods-VirtualTouristUITests.release.xcconfig"; sourceTree = "<group>"; };
-		20FFC3AA2722E8CF717655D9 /* Pods-VirtualTourist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTourist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualTourist/Pods-VirtualTourist.debug.xcconfig"; sourceTree = "<group>"; };
 		3597F6C4208B141800522FF7 /* VirtualTourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualTourist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3597F6C7208B141800522FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3597F6C9208B141800522FF7 /* MapViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewViewController.swift; sourceTree = "<group>"; };
@@ -67,12 +61,6 @@
 		3597F6FF208B245300522FF7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3597F702208B3F0500522FF7 /* CollectionCellFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellFile.swift; sourceTree = "<group>"; };
 		3597F704208BE40E00522FF7 /* NetworkingFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingFile.swift; sourceTree = "<group>"; };
-		6742F64CD65BA838E065B00E /* Pods-VirtualTouristUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTouristUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualTouristUITests/Pods-VirtualTouristUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8584E72880E398A541BADF38 /* Pods-VirtualTouristTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTouristTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualTouristTests/Pods-VirtualTouristTests.release.xcconfig"; sourceTree = "<group>"; };
-		95FFE35FCA2487357DC00B87 /* Pods-VirtualTouristTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTouristTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualTouristTests/Pods-VirtualTouristTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ADE31C12FC116AAD2A3B800C /* Pods_VirtualTourist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualTourist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFA64D17314D261918009FEA /* Pods_VirtualTouristTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualTouristTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E37048A8A0C8535318204B54 /* Pods-VirtualTourist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTourist.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualTourist/Pods-VirtualTourist.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F5EE4B6F8D77FED5EE50C36 /* Pods_VirtualTourist.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E25D2BC6B2DF6C77FC794CB9 /* Pods_VirtualTouristTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D5FE27FBB27B6E6CCF98D4D /* Pods_VirtualTouristUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,8 +95,6 @@
 				3597F6DE208B141800522FF7 /* VirtualTouristTests */,
 				3597F6E9208B141800522FF7 /* VirtualTouristUITests */,
 				3597F6C5208B141800522FF7 /* Products */,
-				F2C70D6D43A846D84AEBB97A /* Pods */,
-				A7DE42939FB306C285791AA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,29 +154,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		A7DE42939FB306C285791AA3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ADE31C12FC116AAD2A3B800C /* Pods_VirtualTourist.framework */,
-				AFA64D17314D261918009FEA /* Pods_VirtualTouristTests.framework */,
-				0B9D6EEDA6194E2BBC378816 /* Pods_VirtualTouristUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F2C70D6D43A846D84AEBB97A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				20FFC3AA2722E8CF717655D9 /* Pods-VirtualTourist.debug.xcconfig */,
-				E37048A8A0C8535318204B54 /* Pods-VirtualTourist.release.xcconfig */,
-				95FFE35FCA2487357DC00B87 /* Pods-VirtualTouristTests.debug.xcconfig */,
-				8584E72880E398A541BADF38 /* Pods-VirtualTouristTests.release.xcconfig */,
-				6742F64CD65BA838E065B00E /* Pods-VirtualTouristUITests.debug.xcconfig */,
-				0FBD855404509877D0947D6C /* Pods-VirtualTouristUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -201,11 +161,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3597F6EF208B141800522FF7 /* Build configuration list for PBXNativeTarget "VirtualTourist" */;
 			buildPhases = (
-				A833130883AD5B7EE3C53327 /* [CP] Check Pods Manifest.lock */,
 				3597F6C0208B141800522FF7 /* Sources */,
 				3597F6C1208B141800522FF7 /* Frameworks */,
 				3597F6C2208B141800522FF7 /* Resources */,
-				7EB3F92BD052CDAC2BEA4F73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,11 +178,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3597F6F2208B141800522FF7 /* Build configuration list for PBXNativeTarget "VirtualTouristTests" */;
 			buildPhases = (
-				675BCD09A7FD545DE28019B3 /* [CP] Check Pods Manifest.lock */,
 				3597F6D7208B141800522FF7 /* Sources */,
 				3597F6D8208B141800522FF7 /* Frameworks */,
 				3597F6D9208B141800522FF7 /* Resources */,
-				A671FEFDDAB4F98D09C0D5A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,11 +196,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3597F6F5208B141800522FF7 /* Build configuration list for PBXNativeTarget "VirtualTouristUITests" */;
 			buildPhases = (
-				E836FC845DF00423416DE769 /* [CP] Check Pods Manifest.lock */,
 				3597F6E2208B141800522FF7 /* Sources */,
 				3597F6E3208B141800522FF7 /* Frameworks */,
 				3597F6E4208B141800522FF7 /* Resources */,
-				CBD9D39D808AE1797A345227 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -328,123 +282,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		675BCD09A7FD545DE28019B3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VirtualTouristTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7EB3F92BD052CDAC2BEA4F73 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-VirtualTourist/Pods-VirtualTourist-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JJJUtils/JJJUtils.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JJJUtils.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VirtualTourist/Pods-VirtualTourist-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A671FEFDDAB4F98D09C0D5A0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-VirtualTouristTests/Pods-VirtualTouristTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JJJUtils/JJJUtils.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JJJUtils.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VirtualTouristTests/Pods-VirtualTouristTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A833130883AD5B7EE3C53327 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VirtualTourist-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CBD9D39D808AE1797A345227 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-VirtualTouristUITests/Pods-VirtualTouristUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JJJUtils/JJJUtils.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JJJUtils.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VirtualTouristUITests/Pods-VirtualTouristUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E836FC845DF00423416DE769 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VirtualTouristUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3597F6C0208B141800522FF7 /* Sources */ = {
@@ -623,8 +460,8 @@
 		};
 		3597F6F0208B141800522FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20FFC3AA2722E8CF717655D9 /* Pods-VirtualTourist.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -639,8 +476,8 @@
 		};
 		3597F6F1208B141800522FF7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E37048A8A0C8535318204B54 /* Pods-VirtualTourist.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -655,7 +492,6 @@
 		};
 		3597F6F3208B141800522FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95FFE35FCA2487357DC00B87 /* Pods-VirtualTouristTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -672,7 +508,6 @@
 		};
 		3597F6F4208B141800522FF7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8584E72880E398A541BADF38 /* Pods-VirtualTouristTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -689,7 +524,6 @@
 		};
 		3597F6F6208B141800522FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6742F64CD65BA838E065B00E /* Pods-VirtualTouristUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -705,7 +539,6 @@
 		};
 		3597F6F7208B141800522FF7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FBD855404509877D0947D6C /* Pods-VirtualTouristUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
