@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OcT-n1-02n">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OcT-n1-02n">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -29,7 +29,7 @@
         <!--Map View-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MapViewViewController" customModule="VirtualTourist" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MapViewController" customModule="VirtualTourist" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,7 +56,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="ehi-fP-jYG" id="2xV-b2-a4B"/>
-                        <segue destination="o0P-7t-ikm" kind="show" identifier="mapView" id="eVA-Xt-yxQ"/>
+                        <segue destination="o0P-7t-ikm" kind="show" identifier="photoCollection" id="eVA-Xt-yxQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -100,6 +100,10 @@
                                         </view>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="o0P-7t-ikm" id="w2T-gC-QIT"/>
+                                    <outlet property="delegate" destination="o0P-7t-ikm" id="RnD-Vx-CCc"/>
+                                </connections>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T0v-HM-y2i">
                                 <rect key="frame" x="0.0" y="588" width="375" height="59"/>
@@ -107,7 +111,6 @@
                                 <state key="normal" title="New"/>
                                 <connections>
                                     <action selector="newCollection:" destination="o0P-7t-ikm" eventType="touchUpInside" id="Iew-UO-jLn"/>
-                                    <action selector="reloadData:" destination="o0P-7t-ikm" eventType="touchUpInside" id="PFl-JI-Xbk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -125,7 +128,7 @@
                         <viewLayoutGuide key="safeArea" id="bPQ-zl-FAH"/>
                     </view>
                     <connections>
-                        <outlet property="collectionView" destination="XYg-cI-7IT" id="FKf-X9-GNM"/>
+                        <outlet property="collectionView" destination="XYg-cI-7IT" id="7TN-3D-BuY"/>
                         <outlet property="mapView" destination="iWI-C6-SJv" id="tPZ-5Q-hWx"/>
                         <outlet property="newCollection" destination="T0v-HM-y2i" id="g4O-QO-Shi"/>
                         <segue destination="rbV-Cs-bae" kind="show" identifier="detailView" id="gmN-xU-t2s"/>

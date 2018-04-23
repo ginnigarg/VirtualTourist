@@ -18,6 +18,7 @@ class NetworkingFlickr : NSFetchedResultsController<Photo>{
     init(coords : MKAnnotation,dataaController : DataController,pinToSave : Pin){
         super.init()
         dataController = dataaController
+        self.getNetworkRequest(pinRecieved: coords, pinToSave: pinToSave)
         try? self.dataController.viewContext.save()
         self.setupFetchRequest(dataaController,pintoSave: pinToSave)
     }
@@ -51,7 +52,7 @@ class NetworkingFlickr : NSFetchedResultsController<Photo>{
         try? dataController.viewContext.save()
     }
     
-    fileprivate func networkSessio(_ methodParameters: [String : String],coords : MKAnnotation,pinToSave : Pin) {
+    fileprivate func networkSession(_ methodParameters: [String : String],coords : MKAnnotation,pinToSave : Pin) {
         let session = URLSession.shared
         let request = URLRequest(url: FlickrURL(parameters: methodParameters as [String : AnyObject]))
         let task = session.dataTask(with: request) {
@@ -70,11 +71,11 @@ class NetworkingFlickr : NSFetchedResultsController<Photo>{
                     }
                     
                 } catch {
-                    print("Error in Fetching Results")
+                    debugPrint("Error")
                 }
                 
-            }//Check For Error Ends Here
-        }//Data Request Ends Here
+            }
+        }
         task.resume()
         
     }
@@ -90,7 +91,7 @@ class NetworkingFlickr : NSFetchedResultsController<Photo>{
             Constants.ParameterKeys.BoundingBox: getbbox(pinRecieved: pinRecieved)
         ]
         
-        networkSessio(methodParameters, coords: pinRecieved, pinToSave: pinToSave)
+        networkSession(methodParameters, coords: pinRecieved, pinToSave: pinToSave)
     }
     
     func getbbox(pinRecieved : MKAnnotation) -> String{

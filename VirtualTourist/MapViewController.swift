@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import CoreData
 
-class MapViewViewController: UIViewController,MKMapViewDelegate,NSFetchedResultsControllerDelegate {
+class MapViewController: UIViewController,MKMapViewDelegate,NSFetchedResultsControllerDelegate {
 
     @IBOutlet weak var mapView: MKMapView!
     
@@ -119,9 +119,6 @@ class MapViewViewController: UIViewController,MKMapViewDelegate,NSFetchedResults
             }
         }
     }
-    
-    
-    
     
     func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
         let entity = NSEntityDescription.entity(forEntityName: "MapRegion", in: dataController.viewContext)

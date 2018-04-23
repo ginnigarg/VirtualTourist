@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3597F6C8208B141800522FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3597F6C7208B141800522FF7 /* AppDelegate.swift */; };
-		3597F6CA208B141800522FF7 /* MapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3597F6C9208B141800522FF7 /* MapViewViewController.swift */; };
+		3597F6CA208B141800522FF7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3597F6C9208B141800522FF7 /* MapViewController.swift */; };
 		3597F6CD208B141800522FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3597F6CB208B141800522FF7 /* Main.storyboard */; };
 		3597F6D0208B141800522FF7 /* VirtualTourist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3597F6CE208B141800522FF7 /* VirtualTourist.xcdatamodeld */; };
 		3597F6D2208B141800522FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3597F6D1208B141800522FF7 /* Assets.xcassets */; };
@@ -43,7 +43,7 @@
 /* Begin PBXFileReference section */
 		3597F6C4208B141800522FF7 /* VirtualTourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualTourist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3597F6C7208B141800522FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3597F6C9208B141800522FF7 /* MapViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewViewController.swift; sourceTree = "<group>"; };
+		3597F6C9208B141800522FF7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		3597F6CC208B141800522FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3597F6CF208B141800522FF7 /* VirtualTourist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VirtualTourist.xcdatamodel; sourceTree = "<group>"; };
 		3597F6D1208B141800522FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,13 +114,14 @@
 				3597F6C7208B141800522FF7 /* AppDelegate.swift */,
 				3597F6FD208B1A4300522FF7 /* DataControllerFile.swift */,
 				3597F6FF208B245300522FF7 /* Constants.swift */,
-				3597F6C9208B141800522FF7 /* MapViewViewController.swift */,
+				3597F6C9208B141800522FF7 /* MapViewController.swift */,
 				3597F6F8208B19AE00522FF7 /* PhotoCollectorViewController.swift */,
 				3597F6FA208B19C200522FF7 /* PhotoDetailViewController.swift */,
 				3597F6CB208B141800522FF7 /* Main.storyboard */,
 				3597F6D1208B141800522FF7 /* Assets.xcassets */,
 				3597F6D3208B141800522FF7 /* LaunchScreen.storyboard */,
-				3597F701208B3EE600522FF7 /* Model */,
+				3597F702208B3F0500522FF7 /* CollectionCellFile.swift */,
+				3597F704208BE40E00522FF7 /* NetworkingFile.swift */,
 				3597F6D6208B141800522FF7 /* Info.plist */,
 				3597F6CE208B141800522FF7 /* VirtualTourist.xcdatamodeld */,
 			);
@@ -143,15 +144,6 @@
 				3597F6EC208B141800522FF7 /* Info.plist */,
 			);
 			path = VirtualTouristUITests;
-			sourceTree = "<group>";
-		};
-		3597F701208B3EE600522FF7 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				3597F702208B3F0500522FF7 /* CollectionCellFile.swift */,
-				3597F704208BE40E00522FF7 /* NetworkingFile.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3597F6CA208B141800522FF7 /* MapViewViewController.swift in Sources */,
+				3597F6CA208B141800522FF7 /* MapViewController.swift in Sources */,
 				3597F6FE208B1A4300522FF7 /* DataControllerFile.swift in Sources */,
 				3597F6F9208B19AE00522FF7 /* PhotoCollectorViewController.swift in Sources */,
 				3597F6C8208B141800522FF7 /* AppDelegate.swift in Sources */,

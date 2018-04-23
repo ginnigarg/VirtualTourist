@@ -26,8 +26,6 @@ class PhotoCollectionViewController : UIViewController,UICollectionViewDataSourc
     override func viewDidLoad() {
         super.viewDidLoad()
         setupInitialView()
-        collectionView.delegate = self
-        collectionView.dataSource = self
         self.navigationItem.rightBarButtonItem = self.editButtonItem
         
     }
@@ -70,7 +68,6 @@ class PhotoCollectionViewController : UIViewController,UICollectionViewDataSourc
             try? fetchedResultsController.performFetch()
         }
         let imageDetail = storyboard?.instantiateViewController(withIdentifier: "PhotoDetailViewController") as! PhotoDetailViewController
-        //imageDetail.detailedImage = meme 
         navigationController?.pushViewController(imageDetail, animated: true)
     }
 

@@ -14,7 +14,7 @@ class PhotoDetailViewController:UIViewController {
     @IBOutlet weak var detailedImage: UIImageView!
     
     override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(true)
+        super.viewWillAppear(animated)
         self.tabBarController?.tabBar.isHidden = true
     }
     
